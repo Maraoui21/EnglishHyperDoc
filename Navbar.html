@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyHyperDoc</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+        *{
+            color:rgb(51 65 85);
+        }
+        .topBox{
+            background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(245,240,255,0.5634628851540616) 66%, rgba(214,0,255,0.09007352941176472) 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar p-3"">
+        <ul class="flex justify-between w-9/12 mx-auto items-center">
+            <li class="mt-2"><img class="h-20" src="./img/download.svg"></li>
+            <div class="flex gap-12 items-center">
+                <a href="./Navbar.html"><li class="font-sans">Home</li></a>
+                <a href="https://maraoui-yassine.bts-cours.com"><li class="font-sans">Portfolio</li></a>
+                <a href="#contacts"><li class="bg-violet-500 text-white px-5 py-2 rounded font-sans">Contacts</li></a>
+            </div>
+        </ul>
+    </div>
+    <div class="topBox  h-[55rem]">
+        <div class="grid grid-cols-2 py-16 px-20 justify-items-center items-center mb-36">
+            <div class="textBox w-3/4 h-3/4 flex flex-col gap-4 justify-center">
+                <h1 class="font-bold text-6xl break-words w-3/4 leading-tight">Hello, I'm 
+                <span class="block">Maraoui Yassine</span>
+                </h1>
+                <p>
+                    I'm a web design specialist and software developer from Laayoune, Morocco. I'm passionate about creating exceptional web applications using JavaScript and networking principles. I stay up-to-date with the latest trends to provide innovative solutions to meet client needs.</p>
+                <button class="w-fit bg-violet-500 text-white px-5 py-2 rounded font-sans mb-10">say Hello !</button>
+                <ul class="DoneTasks flex gap-1">
+                    <div class="text-center text-3xl font-bold px-10 py-4 bg-violet-200 rounded-sm"> 
+                        3
+                        <span class="block font-light text-lg">Happy clients</span>
+                    </div>
+                    <div class="text-center text-3xl font-bold px-10 py-4 bg-violet-200 rounded-sm"> 
+                        5+
+                        <span class="block font-light text-lg">Projects Completed</span>
+                    </div>
+                    <div class="text-center text-3xl font-bold px-10 py-4 bg-violet-200 rounded-sm">
+                        3Y
+                        <span class="block font-light text-lg">Experience</span>
+                    </div>
+                </ul>
+            </div>
+            <div class="HeroImage h-[32rem] overflow-hidden px-5">
+                <img class="rounded-lg h-[40rem] w-full inline" src="./img/HeroImage.png"/>
+            </div>
+        </div>
+        <div class="shadow w-3/4 z-10 relative	bg-white rounded-md mx-auto p-20 ">
+            <div class="flex flex-col gap-4">
+            <h1 class="font-bold text-3xl break-words w-3/4 leading-tight">I'm a web design specialist and software developer</h1>
+            <p class="text-md font-thin break-words w-3/4 leading-normal">I'm a web design specialist and software developer from Laayoune, Morocco.
+            I'm passionate about creating exceptional web applications using JavaScript and networking principles. I stay up-to-date with the latest trends to provide innovative solutions to meet client needs.</p>
+            <ul class="flex gap-4">
+                <a href="#projects"><li><button class="bg-violet-500 text-white px-5 py-2 rounded font-sans">My Projects</button></li></a>
+                <li ><a href="./files/Mon cv.pdf" target="_blank"><button class="flex gap-2 border border-violet-500 text-violet-500 px-5 py-2 rounded font-sans">
+                    <svg fill="none" class="h-5 w-5" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"></path>
+                    </svg>
+                    Download Cv</button></a></li>
+            </ul> 
+            <h1 class="font-bold text-xl break-words w-3/4 leading-tight">Social Links</h1>
+            <div class="Social w-full flex gap-4">
+                <a href="https://web.facebook.com/yassine.ma.3192" target="_blank"><i class="fa fa-facebook-officialfa fa-facebook fa-2x text-violet-500" aria-hidden="true"></i></a>
+                <a href="https://twitter.com/YassineMaraoui" target="_blank"><i class="fa fa-twitter fa-2x text-violet-500" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/maraoui-yassine-158768171/" target="_blank"><i class="fa fa-linkedin-square fa-2x text-violet-500" aria-hidden="true"></i></a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="pb-20 bg-gray-100 pt-[28rem]">
+        <div class="w-9/12 mx-auto">
+           <h1 class="font-bold text-3xl break-words w-3/4 leading-tight pb-10">Content : </h1>
+           <ul class="flex flex-col gap-4">
+            <a href="./CourseEval.html">
+                <li class="transform 
+            transition duration-500 hover:scale-105 cursor-pointer shadow bg-white w-full p-8 text-xl break-words w-3/4 leading-tight">Course Evaluation</li>
+            </a>
+            <a href="./coverLetter.html">
+                <li class="transform 
+            transition duration-500 hover:scale-105 cursor-pointer shadow bg-white w-full p-8 text-xl break-words w-3/4 leading-tight">Cover Letter</li>
+            </a>
+            <a href="./Dh2Val.html">
+                <li class="transform 
+            transition duration-500 hover:scale-105 cursor-pointer shadow bg-white w-full p-8 text-xl break-words w-3/4 leading-tight">GEIW - DH2 evaluation</li>
+            </a>
+           </ul>
+           <h1 id="projects" class="font-bold text-3xl break-words w-3/4 leading-tight mt-16 mb-10">Projects : </h1>
+           <ul class="flex w-full justify-center gap-4">
+            <a href="https://github.com/Maraoui21/Events_management_Projet_Stage" target="_blank">
+                <li class="transform 
+            transition duration-500 hover:scale-105 cursor-pointer shadow bg-white p-8 text-violet-500 font-semibold text-lg break-words w-fit leading-tight">Events management System</li>
+            </a>
+            <a  href="https://github.com/Maraoui21/Web_Browser_JavaFx" target="_blank">
+                <li class="transform 
+                transition duration-500 hover:scale-105 cursor-pointer shadow bg-white p-8 text-violet-500 font-semibold text-lg break-words w-fit leading-tight">Web Browser using JavaFx</li>
+            </a>
+            <a href="https://github.com/Maraoui21/Products_Mangements_System" target="_blank" >
+                <li class="transform 
+                transition duration-500 hover:scale-105 cursor-pointer shadow bg-white p-8 text-violet-500 font-semibold text-lg break-words w-fit leading-tight">Products Mangements System</li>
+            </a>
+           </ul>    
+        </div>
+    </div>
+    <footer class="9/12 mx-auto bg-slate-700 text-center text-white py-16">
+        <ul id="contacts" class="flex flex-col text-base gap-2"> 
+            <li class="text-white"><i class="fa fa-envelope-o text-white fa-lg mx-2" aria-hidden="true"></i>
+                Email : yassinelmaraoui76@gmail.com</li>
+            <li class="text-white"><i class="fa fa-phone text-white fa-lg mx-2" aria-hidden="true"></i>
+                Phone : +212651571989</li>
+            <li class="text-white">Copyright 2023 | Maraoui Yassine</li>
+        </ul>
+    </footer>
+</body>
+</html>
